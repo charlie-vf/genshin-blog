@@ -19,4 +19,6 @@ from django.urls import path, include
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('summernote/', include('django_summernote.urls')),
+    # import blog url for PostList/Index view/template
+    path('', include('blog.urls'), name='blog_urls'),
 ]
