@@ -21,4 +21,6 @@ urlpatterns = [
     path('summernote/', include('django_summernote.urls')),
     # import blog url for PostList/Index view/template
     path('', include('blog.urls'), name='blog_urls'),
+    # add allauth urls to main url patters
+    path('accounts/', include('allauth.urls')),
 ]
