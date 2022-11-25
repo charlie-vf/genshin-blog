@@ -8,5 +8,6 @@ __pycache__/
 node_modules/
 .github/
 cloudinary_python.txt
-.Pipfile.lock
-.Pipfile
+Pipfile.lock
+Pipfile
+.venv
